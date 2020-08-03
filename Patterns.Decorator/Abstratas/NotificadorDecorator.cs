@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.Decorator
+﻿namespace Patterns.Decorator.Abstratas
 {
     public abstract class NotificadorDecorator : NotificadorComponent
     {

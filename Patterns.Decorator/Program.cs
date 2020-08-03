@@ -1,7 +1,7 @@
-﻿using DesignPatterns.Decorator;
+﻿using Patterns.Decorator.Impl;
 using System;
 
-namespace DesignPatterns
+namespace DesignPatterns.Decorator
 {
     class Program
     {

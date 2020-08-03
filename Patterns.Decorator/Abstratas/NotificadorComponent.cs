@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Decorator
+﻿namespace Patterns.Decorator.Abstratas
 {
     public abstract class NotificadorComponent
     {

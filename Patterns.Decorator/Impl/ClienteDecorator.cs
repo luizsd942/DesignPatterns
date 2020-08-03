@@ -1,16 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Patterns.Decorator.Abstratas;
 
-namespace DesignPatterns.Decorator
+namespace Patterns.Decorator.Impl
 {
     public class ClienteDecorator
     {
         private char _opcao;
         private NotificadorComponent notificador;
-        // The client code works with all objects using the Component interface.
-        // This way it can stay independent of the concrete classes of
-        // components it works with.
+        /// <summary>
+        /// A classe Cliente tem como objetivo decorar um objeto Notificador para lhe
+        /// atribuir comportamentos conforme a opção informada.
+        /// Princípio da responsabilidade única (SRP).
+        /// </summary>
+        /// <param name="notificador"></param>
+        /// <param name="opcao"></param>
         public ClienteDecorator(NotificadorComponent notificador, char opcao)
         {
             this.notificador = notificador;

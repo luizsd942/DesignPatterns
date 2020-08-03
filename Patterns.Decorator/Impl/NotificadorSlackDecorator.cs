@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Patterns.Decorator.Abstratas;
+using System;
 
-namespace DesignPatterns.Decorator
+namespace Patterns.Decorator.Impl
 {
     public class NotificadorSlackDecorator : NotificadorDecorator
     {
