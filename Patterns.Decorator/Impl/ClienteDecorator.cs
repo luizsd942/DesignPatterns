@@ -16,7 +16,7 @@ namespace Patterns.Decorator.Impl
         public ClienteDecorator(NotificadorComponent notificador, char opcao)
         {
             this.notificador = notificador;
-            this._opcao = opcao;
+            _opcao = opcao;
         }
         public void Enviar(string mensagem)
         {

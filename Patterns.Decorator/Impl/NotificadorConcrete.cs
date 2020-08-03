@@ -4,8 +4,9 @@ using System;
 namespace Patterns.Decorator.Impl
 {
     /// <summary>
-    /// Implementação Default do Component. Deve ser a primeira classe instanciada e pode executar 
+    /// Implementação Default do Component. Pode executar 
     /// alguma operação ou simplesmente não fazer nada.
+    /// Será a primeira classe instanciada e a última a ser executada no invólucre
     /// </summary>
     public class NotificadorConcrete : NotificadorComponent
     {

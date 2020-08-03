@@ -8,7 +8,7 @@
             this.notificador = notificador;
         }
         //O decorador delega todo o trabalho para o componente envolvido.
-        //Comportamentos extra podem ser adicionados em decoradores concretos.
+        //Comportamentos extras podem ser adicionados em decoradores concretos.
         public override void Enviar(string mensagem)
         {
             if (notificador != null)
